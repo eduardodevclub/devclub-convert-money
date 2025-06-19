@@ -1,6 +1,14 @@
+<p align="center">
+  <img src="https://github.com/eduardodevclub/devclub-convert-money/blob/main/assets/conversao%20moedas%20desktop.png?raw=true" width="500" alt="Nike Air Zoom Thumbnail"/>
+</p>
+
 # 💰 DevClub Convert Money
 
 Um conversor de moedas moderno e intuitivo desenvolvido durante os estudos na **DevClub**. O projeto permite converter valores entre Real Brasileiro e outras moedas principais do mundo, aplicando conceitos fundamentais de desenvolvimento web.
+
+<p align="center">
+  <img src="https://github.com/eduardodevclub/devclub-convert-money/blob/main/assets/conversao%20moedas%20desktop.png?raw=true" width="600" alt="Preview Desktop do site Nike Air Zoom"/>
+</p>
 
 ## 🎓 Sobre o Projeto
 
@@ -11,7 +19,13 @@ Este projeto foi desenvolvido como parte dos estudos na **DevClub**, uma comunid
 - Design responsivo
 - Boas práticas de desenvolvimento front-end
 
-## 🌐 Demo
+### 📱 Preview Mobile
+
+<p align="center">
+  <img src="https://github.com/eduardodevclub/devclub-convert-money/blob/main/assets/conversao%20moeda%20mobile.png?raw=true" width="250" alt="Preview Mobile do site Nike Air Zoom"/>
+</p>
+
+---
 
 ## ✨ Funcionalidades
 
