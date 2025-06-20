@@ -88,7 +88,7 @@ function changeCurrency() {
 
   if (currencySelect.value == "rublo") {
     currencyName.innerHTML = "Rublo";
-    currencyImage.src = "./assets/rublo.png";
+    currencyImage.src = "./assets/Rublo.png";
   }
 
   convertValues();
