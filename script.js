@@ -12,6 +12,7 @@ function convertValues() {
   const euroToday = 6.29;
   const libraToday = 7.35; // exemplo fictício, troque pela cotação real
   const bitcoinToday = 575307.72; // exemplo bitcoin
+  const rubloToday = 0.070; // exemplo rublo
 
   if (currencySelect.value == "dolar") {
     // Se o selct estiver selecinado o valor de dolar, entre aqui
@@ -47,6 +48,14 @@ function convertValues() {
       }).format(inputCurrencyValue / bitcoinToday) + " BTC";
   }
 
+  if (currencySelect.value == "rublo") {
+  // Se o select estiver selecionado o valor de rublo, entre aqui
+  currencyValueConverted.innerHTML = Intl.NumberFormat("ru-RU", {
+    style: "currency",
+    currency: "RUB",
+  }).format(inputCurrencyValue / rubloToday);
+}
+
   currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
     style: "currency",
     currency: "BRL",
@@ -75,6 +84,11 @@ function changeCurrency() {
   if (currencySelect.value == "bitcoin") {
     currencyName.innerHTML = "Bitcoin";
     currencyImage.src = "./assets/bitcoin.png";
+  }
+
+  if (currencySelect.value == "rublo") {
+    currencyName.innerHTML = "Rublo";
+    currencyImage.src = "./assets/rublo.png";
   }
 
   convertValues();
