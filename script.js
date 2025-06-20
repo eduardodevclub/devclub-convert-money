@@ -41,10 +41,10 @@ function convertValues() {
     // Se o select estiver selecionado o valor de bitcoin, entre aqui
     currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
       style: "decimal",
-      minimumFractionDigits: 6,
+      minimumFractionDigits: 8,
       maximumFractionDigits: 8,
-    }).format(inputCurrencyValue / bitcoinToday);
-  }
+    }).format(inputCurrencyValue / bitcoinToday) + " BTC";
+}
 
   currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
     style: "currency",
