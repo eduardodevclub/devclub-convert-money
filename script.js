@@ -3,10 +3,9 @@ const currencySelect = document.querySelector(".currency-select");
 
 function convertValues() {
   const inputCurrencyValue = document.querySelector(".input-currency").value;
-  const currencyValueToConvert = document.querySelector(
-    ".currency-value-to-convert"
-  ); //Valor Real
+  const currencyValueToConvert = document.querySelector(".currency-value-to-convert"); //Valor Real
   const currencyValueConverted = document.querySelector(".currency-value"); //Outras moedas
+  const currencyConverter = document.querySelector(".currency-converter")
 
   const dolarToday = 5.49;
   const euroToday = 6.29;
@@ -69,6 +68,11 @@ function changeCurrency() {
   if (currencySelect.value == "dolar") {
     currencyName.innerHTML = "Dólar americano";
     currencyImage.src = "./assets/dolar.png";
+  }
+
+  if (currencySelect.value == "real") {
+    currencyName.innerHTML = "Real";
+    currencyImage.src = "./assets/real.png";
   }
 
   if (currencySelect.value == "euro") {
